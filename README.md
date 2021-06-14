@@ -25,7 +25,6 @@ where xxx denotes the identifier of the module, i.e. "m01" for the Feed-Module.
 ### Pull from dockerhub
 To deploy the dockerhub-image please execute the following:
 ```bash
-sudo docker pull "vkhaydarov/planteye-nebula-xxx"
 sudo docker run --rm -it "vkhaydarov/planteye-nebula-xxx"
 ```
 where xxx denotes the identifier of the module, i.e. "m01" for the Feed-Module.
