@@ -1,0 +1,1084 @@
+buffer:
+  max_size: 10000
+event_logger:
+  print_level: DEBUG
+  publish: false
+influxdb:
+  database: M04_Bioreactor-Module
+  db_password: db_password
+  db_user: db_user
+  host: 10.4.53.57
+  password: root
+  port: 8086
+  reconnect_interval: 10000
+  user: root
+  write_interval: 10000
+metrics:
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '1'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F01.F01_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F01.F01_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '2'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F01.F01_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F01.F01_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '3'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F01.F01_V3010.PosFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F01.F01_V3010
+  variable: PosFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '4'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F01.F01_V3010.Pos'
+  nodeNamespace: 4
+  tagname: Actuators_F01.F01_V3010
+  variable: Pos
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '5'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F01.F01_V3010.PosRbk'
+  nodeNamespace: 4
+  tagname: Actuators_F01.F01_V3010
+  variable: PosRbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '6'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F02.F02_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F02.F02_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '7'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F02.F02_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F02.F02_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '8'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F02.F02_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F02.F02_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '9'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F02.F02_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F02.F02_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '10'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F02.F02_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F02.F02_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '11'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F03.F03_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F03.F03_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '12'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F03.F03_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F03.F03_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '13'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F03.F03_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F03.F03_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '14'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F03.F03_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F03.F03_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '15'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F03.F03_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F03.F03_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '16'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F04.F04_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F04.F04_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '17'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F04.F04_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F04.F04_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '18'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F04.F04_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F04.F04_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '19'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F04.F04_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F04.F04_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '20'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F04.F04_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F04.F04_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '21'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F06.F06_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F06.F06_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '22'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F06.F06_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F06.F06_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '23'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F06.F06_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F06.F06_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '24'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F06.F06_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F06.F06_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '25'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F06.F06_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F06.F06_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '26'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F02.F02_P3012.V'
+  nodeNamespace: 4
+  tagname: Sensors_F02.F02_P3012
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '27'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F01.F01_P3012.V'
+  nodeNamespace: 4
+  tagname: Sensors_F01.F01_P3012
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '28'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.FwdFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: FwdFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '29'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.RevFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: RevFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '30'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.Trip'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: Trip
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '31'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.FwdCtrl'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: FwdCtrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '32'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.RevCtrl'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: RevCtrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '33'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.RpmFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: RpmFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '34'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.Rpm'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: Rpm
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '35'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011.RpmRbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011
+  variable: RpmRbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '36'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3120.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3120
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '37'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3120.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3120
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '38'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3120.PosFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3120
+  variable: PosFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '39'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3120.Pos'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3120
+  variable: Pos
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '40'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3120.PosRbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3120
+  variable: PosRbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '41'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_X1014.VFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_X1014
+  variable: VFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '42'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_X1014.VOut'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_X1014
+  variable: VOut
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '43'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_X1014.VRbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_X1014
+  variable: VRbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '44'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_R1011_Err.V'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_R1011_Err
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '45'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3040.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3040
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '46'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3040.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3040
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '47'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3040.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3040
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '48'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3040.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3040
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '49'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F00.F00_V3040.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F00.F00_V3040
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '50'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F00.F00_P1013.V'
+  nodeNamespace: 4
+  tagname: Sensors_F00.F00_P1013
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '51'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F00.F00_W1021.V'
+  nodeNamespace: 4
+  tagname: Sensors_F00.F00_W1021
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '52'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F00.F00_T1015.V'
+  nodeNamespace: 4
+  tagname: Sensors_F00.F00_T1015
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '53'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F00.F00_P3122.V'
+  nodeNamespace: 4
+  tagname: Sensors_F00.F00_P3122
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '54'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F00.F00_S1011.V'
+  nodeNamespace: 4
+  tagname: Sensors_F00.F00_S1011
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '55'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F11.F11_T1021.V'
+  nodeNamespace: 4
+  tagname: Sensors_F11.F11_T1021
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '56'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F11.F11_P1011.V'
+  nodeNamespace: 4
+  tagname: Sensors_F11.F11_P1011
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '57'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F11.F11_P3071.V'
+  nodeNamespace: 4
+  tagname: Sensors_F11.F11_P3071
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '58'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors_F11.F11_T1031.V'
+  nodeNamespace: 4
+  tagname: Sensors_F11.F11_T1031
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '59'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_P2010.FwdFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_P2010
+  variable: FwdFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '60'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_P2010.RevFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_P2010
+  variable: RevFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '61'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_P2010.Trip'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_P2010
+  variable: Trip
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '62'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_P2010.FwdCtrl'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_P2010
+  variable: FwdCtrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '63'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_P2010.RevCtrl'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_P2010
+  variable: RevCtrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '64'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3060.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3060
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '65'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3060.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3060
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '66'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3060.PosFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3060
+  variable: PosFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '67'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3060.Pos'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3060
+  variable: Pos
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '68'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3060.PosRbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3060
+  variable: PosRbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '69'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '70'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '71'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '72'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '73'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F11.F11_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F11.F11_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '74'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F07.F07_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F07.F07_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '75'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F07.F07_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F07.F07_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '76'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F07.F07_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F07.F07_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '77'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F07.F07_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F07.F07_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '78'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F07.F07_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F07.F07_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '79'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3010.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3010
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '80'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3010.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3010
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '81'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3010.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3010
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '82'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3010.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3010
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '83'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3010.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3010
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '84'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3020.MonStatErr'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3020
+  variable: MonStatErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '85'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3020.MonDynErr'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3020
+  variable: MonDynErr
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '86'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3020.OpenFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3020
+  variable: OpenFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '87'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3020.CloseFbk'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3020
+  variable: CloseFbk
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '88'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators_F08.F08_V3020.Ctrl'
+  nodeNamespace: 4
+  tagname: Actuators_F08.F08_V3020
+  variable: Ctrl
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '89'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_water_1.ActualInletPressure.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_water_1.ActualInletPressure
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '90'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_water_1.ActualWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_water_1.ActualWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '91'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_water_1.FilledWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_water_1.FilledWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '92'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_water_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_water_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '93'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_water_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_water_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '94'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_A_1.ActualWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_A_1.ActualWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '95'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_A_1.FilledWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_A_1.FilledWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '96'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_A_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_A_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '97'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_A_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_A_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '98'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.ActualWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.ActualWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '99'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.FilledWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.FilledWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '100'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.ActualVolume.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.ActualVolume
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '101'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.FilledVolume.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.FilledVolume
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '102'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '103'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Fill_B_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Fill_B_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '104'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Pressurize_1.ActualControllerPressure.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Pressurize_1.ActualControllerPressure
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '105'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Pressurize_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Pressurize_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '106'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Pressurize_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Pressurize_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '107'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_PressurizeSeal_1.ActualSealPressure.V'
+  nodeNamespace: 4
+  tagname: Services.Service_PressurizeSeal_1.ActualSealPressure
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '108'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_PressurizeSeal_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_PressurizeSeal_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '109'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_PressurizeSeal_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_PressurizeSeal_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '110'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Dose_1.ActualWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Dose_1.ActualWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '111'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Dose_1.DosedWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Dose_1.DosedWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '112'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Dose_1.MassFlow.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Dose_1.MassFlow
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '113'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Dose_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Dose_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '114'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Dose_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Dose_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '115'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Empty_1.ActualWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Empty_1.ActualWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '116'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Empty_1.EmptiedWeight.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Empty_1.EmptiedWeight
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '117'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Empty_1.MassFlow.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Empty_1.MassFlow
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '118'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Empty_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Empty_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '119'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Empty_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Empty_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '120'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Stir_1.ActualRPM.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Stir_1.ActualRPM
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '121'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Stir_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Stir_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '122'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Stir_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Stir_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '123'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Aerate_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Aerate_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '124'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Aerate_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Aerate_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '125'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Pressure_Release_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Pressure_Release_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '126'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Pressure_Release_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Pressure_Release_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '127'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Calibrate_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Calibrate_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '128'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Calibrate_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Calibrate_1.ServiceControl
+  variable: ProcedureCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '129'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Regulate_Temperature_1.ActualTemperature.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Regulate_Temperature_1.ActualTemperature
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '130'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Regulate_Temperature_1.InletTemperature.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Regulate_Temperature_1.InletTemperature
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '131'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Regulate_Temperature_1.OutletTemperature.V'
+  nodeNamespace: 4
+  tagname: Services.Service_Regulate_Temperature_1.OutletTemperature
+  variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '132'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Regulate_Temperature_1.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Regulate_Temperature_1.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '133'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Regulate_Temperature_1.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Regulate_Temperature_1.ServiceControl
+  variable: ProcedureCur
+opcua:
+  number_of_reconnections: -1
+  reconnect_interval: 10000
+  url: opc.tcp://10.6.51.40:4840
