@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+
+  nebula_m13:
+    build: .
+    container_name: nebula_m13
+

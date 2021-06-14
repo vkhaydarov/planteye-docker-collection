@@ -1,0 +1,21 @@
+# set base image (host OS)
+FROM python:3.8
+
+# update and install components
+RUN apt-get update -y
+RUN apt-get install -y git
+
+# clone repository of planteye-nebula
+RUN git clone https://github.com/vkhaydarov/planteye-nebula.git
+WORKDIR /planteye-nebula
+
+# install dependencies
+RUN ls
+RUN pwd
+RUN pip install -r requirements.txt
+
+# copy files into the working directory
+COPY config.yaml config.yaml
+
+# command to run on container start
+CMD [ "python", "main.py" ]
