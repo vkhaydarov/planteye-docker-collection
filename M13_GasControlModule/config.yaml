@@ -20,7 +20,7 @@ metrics:
   metric_id: '1'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VC3020.OpenFbk'
   nodeNamespace: 4
-  tagname: Actuators.VC3020.OpenFbk
+  tagname: Actuators.VC3020
   variable: OpenFbk
 - interval: 1000
   measurement: data_assemblies
@@ -28,7 +28,7 @@ metrics:
   metric_id: '2'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VC3020.CloseFbk'
   nodeNamespace: 4
-  tagname: Actuators.VC3020.CloseFbk
+  tagname: Actuators.VC3020
   variable: CloseFbk
 - interval: 1000
   measurement: data_assemblies
@@ -36,7 +36,7 @@ metrics:
   metric_id: '3'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VC3020.PosFbk'
   nodeNamespace: 4
-  tagname: Actuators.VC3020.PosFbk
+  tagname: Actuators.VC3020
   variable: PosFbk
 - interval: 1000
   measurement: data_assemblies
@@ -44,7 +44,7 @@ metrics:
   metric_id: '4'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VC3020.Pos'
   nodeNamespace: 4
-  tagname: Actuators.VC3020.Pos
+  tagname: Actuators.VC3020
   variable: Pos
 - interval: 1000
   measurement: data_assemblies
@@ -52,7 +52,7 @@ metrics:
   metric_id: '5'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VC3020.PosRbk'
   nodeNamespace: 4
-  tagname: Actuators.VC3020.PosRbk
+  tagname: Actuators.VC3020
   variable: PosRbk
 - interval: 1000
   measurement: data_assemblies
@@ -60,7 +60,7 @@ metrics:
   metric_id: '6'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VV3030.OpenFbk'
   nodeNamespace: 4
-  tagname: Actuators.VV3030.OpenFbk
+  tagname: Actuators.VV3030
   variable: OpenFbk
 - interval: 1000
   measurement: data_assemblies
@@ -68,7 +68,7 @@ metrics:
   metric_id: '7'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VV3030.CloseFbk'
   nodeNamespace: 4
-  tagname: Actuators.VV3030.CloseFbk
+  tagname: Actuators.VV3030
   variable: CloseFbk
 - interval: 1000
   measurement: data_assemblies
@@ -76,7 +76,7 @@ metrics:
   metric_id: '8'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Actuators.VV3030.Ctrl'
   nodeNamespace: 4
-  tagname: Actuators.VV3030.Ctrl
+  tagname: Actuators.VV3030
   variable: Ctrl
 - interval: 1000
   measurement: data_assemblies
@@ -84,7 +84,7 @@ metrics:
   metric_id: '9'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Sensors.F3021.V'
   nodeNamespace: 4
-  tagname: Sensors.F3021.V
+  tagname: Sensors.F3021
   variable: V
 - interval: 1000
   measurement: data_assemblies
@@ -92,8 +92,24 @@ metrics:
   metric_id: '10'
   nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Transfer_Media.Flow_Read.V'
   nodeNamespace: 4
-  tagname: Services.Service_Transfer_Media.Flow_Read.V
+  tagname: Services.Service_Transfer_Media.Flow_Read
   variable: V
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '11'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Transfer_Media.ServiceControl.StateCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Transfer_Media.ServiceControl
+  variable: StateCur
+- interval: 1000
+  measurement: data_assemblies
+  method: polled
+  metric_id: '12'
+  nodeId: '|var|WAGO 750-8212 PFC200 G2 2ETH RS.Application.Services.Service_Transfer_Media.ServiceControl.ProcedureCur'
+  nodeNamespace: 4
+  tagname: Services.Service_Transfer_Media.ServiceControl
+  variable: ProcedureCur
 opcua:
   number_of_reconnections: -1
   reconnect_interval: 10000
