@@ -6,7 +6,7 @@ RUN apt-get update -y
 RUN apt-get install -y git
 
 # clone repository of planteye-nebula
-RUN git clone https://github.com/vkhaydarov/planteye-nebula.git
+RUN git clone https://github.com/p2o-lab/planteye-nebula.git
 WORKDIR /planteye-nebula
 
 # install dependencies
